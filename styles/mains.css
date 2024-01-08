@@ -119,6 +119,7 @@ p {
 
 .listItem.checked{
     text-decoration: line-through;
+    color: grey;
 }
 .listItem.checked .checkContainer{
     background:  url(./images/icon-check.svg), linear-gradient(120deg, rgb(49, 159, 250), rgb(252, 117, 232));
