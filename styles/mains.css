@@ -167,7 +167,7 @@ p {
 
 
 /* MEDIA QUERY STYLES (desktop) */
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1400px){
     .container {
         background: url(../images/bg-desktop-dark.jpg);
         background-repeat: no-repeat;
