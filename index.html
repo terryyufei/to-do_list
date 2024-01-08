@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title> Todo app</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./styles/mains.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Sortable library for drag and drop functionality -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"
+        integrity="sha512-Eezs+g9Lq4TCCq0wae01s9PuNWzHYoCMkE97e2qdkYthpI0pzC3UGB03lgEHn2XM85hDOUF6qgqqszs+iXU4UA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <!-- Toogle dark and light mode -->
+            <nav>
+                <span class="logo">TO DO</span>
+                <img src="./images/icon-sun.svg" alt="sun" class="sun">
+                <img src="./images/icon-moon.svg" alt="moon" class="moon">
+            </nav>
+
+            <!-- Input for adding new todo -->
+            <div class="inputContainer">
+                <input type="text" placeholder="Create a new todo...">
+            </div>
+
+            <!-- List container for todos -->
+            <div class="listContainer">
+
+                <!-- Functionalities section -->
+                <div class="func">
+                    <p class="leftItem">0 item left</p>
+                    <p class="clearCompleted">Clear Completed</p>
+                </div>
+
+            </div>
+
+            <!-- Filter section (All, Active, Completed) -->
+            <div class="filter">
+                <p class="all">All</p>
+                <p class="active">Active</p>
+                <p class="completed">Completed</p>
+            </div>
+
+             <!-- Information about drag and drop functionality -->
+            <p class="info">Drag and drop to reorder list</p>
+        </div>
+    </main>
+
+    <!-- JavaScript script -->
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
